@@ -1,0 +1,42 @@
+An e-commerce order response containing an array of physical items, shipping address, payment transaction details, and HAL links for tracking.
+A fintech digital wallet statement showing current balance, user profile details, and a nested list of the last 3 recent transactions.
+A SaaS subscription invoice response featuring billing cycle dates, nested company details, tax breakdowns, and a list of applied discount coupons.
+A streaming platform movie endpoint detailing title, runtime, a nested object for the director, an array of cast members, and HATEOAS links for related movies.
+A music library playlist response containing playlist metadata, the creator's user snippet, and a paginated array of tracks with audio specs.
+A veterinary clinic appointment response containing the nested details of the pet (species, breed, weight), the owner's contact info, and the scheduled procedure details.
+A hospital patient medical record summary showing vital signs, a nested list of current medications with dosages, and the attending doctor's profile.
+A logistics fleet tracking response detailing a delivery truck's current GPS coordinates, speed, driver info, and an array of stops in the route.
+A smart home IoT thermostat status response showing current temperature, target temperature, a nested object for device battery/wifi health, and historical usage data.
+A university student dashboard response with nested academic history, current enrolled courses array, and financial tuition status.
+A corporate ERP inventory check response containing warehouse location metadata, nested product technical specs, and stock levels across three different regions.
+A restaurant reservation API response showing table number, nested customer dietary restrictions, and an array of pre-ordered items.
+A cryptocurrency wallet dashboard showing fiat balance, an array of digital assets with current market prices, and a nested history of recent blockchain transfers.
+A mortgage loan application response detailing the applicant's credit score, a nested property valuation object, and an array of required compliance documents.
+A corporate payroll slip featuring gross salary, a nested breakdown of tax deductions, health benefits, and an array of direct deposit bank accounts.
+A hospital laboratory test result containing the patient's demographics, a nested array of blood biomarkers with normal ranges, and the reviewing pathologist's digital signature.
+A health insurance claim status response showing the provider's details, an array of medical procedures billed, and a nested object explaining the covered and out-of-pocket costs.
+A dental clinic patient history detailing the anatomical tooth chart, an array of past procedures, and nested metadata for upcoming scheduled cleanings.
+A multiplayer RPG player profile featuring current level, a nested object of equipped gear (head, chest, weapon), and an array of unlocked achievements with timestamps.
+A competitive e-sports match summary showing team scores, an array of player statistics (kills, deaths, assists), and a nested timeline of key match events.
+A mobile game microtransaction receipt detailing the purchased virtual currency, applied promotional multipliers, and an array of unlocked cosmetic items.
+A smart agriculture sensor response showing current soil moisture, a nested object for weather forecast predictions, and an array of recent automated irrigation events.
+An autonomous fleet vehicle telemetry ping containing GPS coordinates, current speed, nested battery health diagnostics, and an array of recent driving anomalies.
+A smart city traffic camera report detailing intersection congestion levels, a nested array of detected vehicle types, and active pedestrian crossing alerts.
+A global shipping container tracking response showing current port location, nested customs clearance status, and an array of environmental readings (temperature, humidity).
+A food delivery app order status featuring the courier's real-time location, a nested restaurant profile, and an array of ordered dishes with special dietary notes.
+An airline flight booking confirmation showing passenger details, a nested itinerary with layovers, and an array of selected seat upgrades and meal preferences.
+A real estate property listing containing architectural specs, a nested array of high-resolution image URLs, and the assigned realtor's contact information.
+A hotel reservation system response detailing room type, nested pricing breakdown per night, and an array of requested amenities like cribs or extra beds.
+A co-working space desk availability report showing floor plans, a nested list of currently occupied hot-desks, and an array of upcoming meeting room reservations.
+A university course syllabus response detailing the professor's academic background, a nested array of weekly modules, and required textbook reading lists.
+An online learning platform student progress report showing course completion percentage, a nested array of quiz scores, and unlocked digital certificates.
+A library management system book search result featuring ISBN metadata, a nested array of physical copies with their current shelf locations, and digital borrowing availability.
+A streaming music platform artist profile containing biographical data, a nested array of top streamed tracks, and an object detailing upcoming concert tour dates.
+A social media platform user feed response showing an array of posts, each containing nested arrays of comments and liked-by user snippets.
+A digital news publication article response featuring the headline, author byline, a nested array of embedded multimedia assets, and related article tags.
+A B2B wholesale order invoice detailing the buyer company profile, a nested array of bulk items with tiered discounts applied, and freight shipping terms.
+A SaaS platform user analytics report showing daily active users, a nested array of feature usage metrics, and account subscription tier limits.
+A cybersecurity threat intelligence alert containing the severity level, a nested array of affected IP addresses, and recommended mitigation protocols.
+A cloud infrastructure billing dashboard showing total monthly cloud spend, a nested array of costs broken down by service (compute, storage), and projected forecasts.
+A government tax return assessment response detailing the citizen's declared income, nested arrays of valid deductions, and the final calculated tax refund or debt.
+A restaurant kitchen display system ticket showing the table number, a nested array of ordered items grouped by preparation station, and allergy warnings.
