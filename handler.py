@@ -139,12 +139,12 @@ if __name__ == "__main__":
             break
         print("INICIANDO")
         scenario = scenarios[i % len(scenarios)]
-        # try:
-        result = generateSchema(scenario)
-        # except:
-        #     print("\nHouve um erro, esperando mais um minuto\n")
-        #     time.sleep(30)
-        #     continue
+        try:
+            result = generateSchema(scenario)
+        except:
+            print("\nHouve um erro, esperando mais 10 minuto\n")
+            time.sleep(60 * 10)
+            continue
 
         with open("zod.jsonl", "a", encoding="utf-8") as path:
             text = json.dumps(result.text, ensure_ascii=False)
