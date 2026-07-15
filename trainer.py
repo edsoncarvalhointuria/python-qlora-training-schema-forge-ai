@@ -60,12 +60,13 @@ if __name__ == "__main__":
         num_train_epochs=3,
         per_device_train_batch_size=2,
         gradient_accumulation_steps=4,
+        bf16=True,
     )
 
     trainer = SFTTrainer(
         model=brain,
-        train_dataset=dataset["train"].select(range(50)),
-        eval_dataset=dataset["test"].select(range(10)),
+        train_dataset=dataset["train"],
+        eval_dataset=dataset["test"],
         args=rules,
         processing_class=translate,
         peft_config=lora,
@@ -73,3 +74,4 @@ if __name__ == "__main__":
     )
 
     trainer.train()
+    trainer.push_to_hub("edsoncarvalhointuria/schema-forg-ai")
