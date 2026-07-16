@@ -218,8 +218,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-*.jsonl
-handler_gemma_4.py
-handler_gemma.py
-translate.py
 meu-modelo/
+.vscode/
