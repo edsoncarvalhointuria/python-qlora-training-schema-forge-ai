@@ -56,7 +56,7 @@ if __name__ == "__main__":
         model_name, quantization_config=config_4bits, dtype=torch.float16
     )
     rules = TrainingArguments(
-        output_dir="./schema-forg-ai",
+        output_dir="./resultados",
         per_device_train_batch_size=2,
         gradient_accumulation_steps=16,
         gradient_checkpointing=True,
@@ -67,7 +67,7 @@ if __name__ == "__main__":
         eval_steps=100,
         max_grad_norm=0.3,
         num_train_epochs=2,
-        warmup_ratio=0.03,
+        warmup_steps=20,
         lr_scheduler_type="cosine",
         save_steps=200,
     )
@@ -79,8 +79,6 @@ if __name__ == "__main__":
         args=rules,
         processing_class=translate,
         peft_config=lora,
-        max_seq_length=4096,
     )
-
     trainer.train()
     trainer.push_to_hub("edsoncarvalhointuria/schema-forg-ai")

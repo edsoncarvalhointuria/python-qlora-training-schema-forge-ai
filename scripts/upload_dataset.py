@@ -5,11 +5,11 @@ import os
 from pathlib import Path
 
 load_dotenv()
-data_path = Path.cwd().parent / "data"
+data_path = Path.cwd() / "data"
 
 archives = {
-    "train": data_path / "train.jsonl",
-    "test": data_path / "test.jsonl",
+    "train": str(data_path / "train.jsonl"),
+    "test": str(data_path / "test.jsonl"),
 }
 
 login(token=os.getenv("HF_API_KEY"))
@@ -17,5 +17,5 @@ login(token=os.getenv("HF_API_KEY"))
 dataset = load_dataset("json", data_files=archives)
 dataset.push_to_hub(
     "edsoncarvalhointuria/erp-schema-forg-dataset",
-    commit_message="subindo arquivos atualizados",
+    commit_message="novos dados",
 )
